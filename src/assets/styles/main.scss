@@ -1,0 +1,38 @@
+body {
+    background-color: #3e80d6;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #33445a;
+    color: #fff;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.item.active {
+    background-color: #07f537;
+    color: #33445a;
+}
+
+.services-wrapper {
+    max-width: max-content;
+}
+
+.item-total {
+    border-top: 1px solid #333;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.checkbox {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
